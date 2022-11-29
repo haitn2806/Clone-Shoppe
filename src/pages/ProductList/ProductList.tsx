@@ -1,6 +1,7 @@
 import { useQuery } from '@tanstack/react-query'
 import categoryApi from 'src/apis/category.api'
 import productApi from 'src/apis/product.api'
+// import { QueryConfig } from 'src/pages/ProductList/ProductList'
 import Pagination from 'src/components/Pagination'
 import useQueryConfig from 'src/hooks/useQueryConfig'
 import { ProductListConfig } from 'src/types/product.type'
